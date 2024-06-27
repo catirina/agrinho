@@ -1,0 +1,79 @@
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  
+  section {
+    padding: 20px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+  }
+    
+    #velho {
+      width: 50%;
+      margin: 0 auto; /* Isso centralizará a imagem horizontalmente */
+      display: block; /* Garante que a margem automática funcione */
+      text-align: center; /* Ainda mantém o texto dentro da imagem centralizado */
+    }
+  
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  footer{
+      background-color: rgba(139, 219, 175, 0.432);
+      color: rgba(96, 148, 130, 0.5);
+      text-align: center;
+      padding: 10px 0;
+  }
+
+
+  
+  .receitas-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receita {
+    flex: 0 0 calc(20% - 20px); 
+    margin: 1%;
+    text-align: center;
+}
+
+.receita img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Aumentando o tamanho máximo das imagens */
+    width: 100%; /* Definindo a largura para ocupar 100% do espaço disponível */
+    height: auto; /* Mantendo a proporção original da imagem */
+}
+
+h1 {
+  
+}
+
+
+
+
