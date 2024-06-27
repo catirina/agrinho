@@ -44,7 +44,7 @@ body {
   
   footer{
       background-color: rgba(139, 219, 175, 0.432);
-      color: rgba(96, 148, 130, 0.5);
+      color: rgba(64, 97, 85, 0.5);
       text-align: center;
       padding: 10px 0;
   }
@@ -70,10 +70,10 @@ body {
     height: auto; /* Mantendo a proporção original da imagem */
 }
 
-h1 {
-  
+footer img{
+  margin-left: 120px;
+  width: 30%;
 }
-
 
 
 
